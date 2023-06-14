@@ -30,9 +30,4 @@ stop(50)
 back(200)
 stop(25)
 
-
-turtle.Screen().exitonclick()
-
-
-
 turtle.Screen().exitonclick()
