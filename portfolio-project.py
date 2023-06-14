@@ -89,3 +89,5 @@ import turtle
 #   rectangle(100,50)
 #   turtle.left(45)
 #   square(70)
+
+turtle.Screen().exitonclick()
