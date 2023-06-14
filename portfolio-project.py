@@ -48,3 +48,44 @@ import turtle
 #   back(100)
 
 ############################################################
+
+# Step 4. Create a square function
+# Revise your program to include a square function that takes the length of each side as a
+# parameter & draws a square using the turtle. Call this function instead of the lines you
+# used to draw the squares in the prior two steps. Using a loop is recommended.
+
+# def square(size):
+#   for i in range(4):
+#     turtle.shape("turtle")
+#     turtle.forward(size)
+#     turtle.left(90)
+    
+# square(50)
+
+############################################################
+
+# Step 5. Create a rectangle function
+# Next we are going to generalize our square function by creating a rectangle function
+# that takes a width & a height as parameters and uses the turtle to draw a rectangle. 
+
+# def rectangle(width, height):
+#   for i in range(2):
+#     turtle.shape("turtle")
+#     turtle.forward(width)
+#     turtle.left(90)
+#     turtle.forward(height)
+#     turtle.left(90)
+    
+# rectangle(100,50)
+
+############################################################
+
+# Step 6. Draw a picture
+# Using your newly created square & rectangle functions, draw an interesting picture
+# using a for loop that calls rectangle and/or square. In your picture, try to include at least
+# one rectangle and one square. Your program should not take any user input.
+
+# for i in range(4):
+#   rectangle(100,50)
+#   turtle.left(45)
+#   square(70)
